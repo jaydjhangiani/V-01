@@ -1,0 +1,150 @@
+body {
+    background: #749bcf;
+  }
+  
+ 
+  .ear, .face, .inner, .eye, .snout {
+    position: absolute;
+  }
+ 
+  .ear {
+    top: -5px;
+    left: 1px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #916953;
+  }
+  
+  .ear.right {
+    transform: translateX(80px);
+  }
+  
+  .face {
+    width: 100px;
+    height: 90px;
+    border-radius: 100%;
+    background: #916953;
+  }
+  
+  .inner {
+    top: 8px;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    background: #FCB5B5;
+    border-radius: 1000%;
+  }
+  
+  .inner.right {
+    left: 0px;
+  }
+  
+  .eye {
+    top: 35px;
+    left: 25px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: #000;
+  }
+  
+  .eye.right {
+    transform: translateX(45px);
+  }
+  
+  .snout {
+    top: 40px;
+    left: 25px;
+    width: 50px;
+    height: 45px;
+    background: #FDCFCF;
+    border-radius: 100%;
+  }
+  
+  .nose {
+    position: absolute;
+    top: 4px;
+    left: 16px;
+    width: 15px;
+    height: 7px;
+    background: #333;
+    border-radius: 100%;
+  }
+  
+  .bridge {
+    position: absolute;
+    top: 10px;
+    left: 23px;
+    width: 2px;
+    height: 13px;
+    background: #333;
+  }
+  
+  .mouth {
+    position: absolute;
+    width: 10px;
+    height: 5px;
+    border-radius: 0% 0% 100% 100%;
+    border-bottom: 2px solid;
+    top: 17px;
+    left: 18px;
+  }
+  
+  .paci {
+    position: absolute;
+    top: 19px;
+    left: 12px;
+    width: 27px;
+    height: 18px;
+    background: #7FB7BE;
+    border-radius: 20px;
+  }
+  
+  .mid {
+    position: absolute;
+    top: 3px;
+    left: 7px;
+    width: 12px;
+    height: 12px;
+    background: #F05D5E;
+    border-radius: 20px;
+  }
+  
+  .ring {
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #F05D5E;
+    border-radius: 20px;
+  }
+  
+.flexbox-1,.flexbox-2,.flexbox-3,.flexbox-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    }
+
+.flexbox-1{
+    margin-top: 10px;
+}
+
+.flexbox-2{
+    margin-top: 90px;
+    top:100px;
+    color: aliceblue;;
+}
+
+h2{
+    text-align: center;
+    color: aliceblue;
+}
+
+img{
+  border-radius: 4px;
+  height: 300px;
+  width: 450px;
+}
